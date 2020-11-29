@@ -1,0 +1,192 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Libre Franklin', sans-serif;
+}
+a
+{
+	color: #fff;
+	text-decoration: none;
+}
+nav
+{
+	background: #9A47F3;
+}
+.row .col-lg-2
+{
+	background: #877DCC;
+	font-size: 20px;
+}
+.row
+{
+	height: auto;
+	margin: 0!important;
+}
+.row .col-lg-2 .nav li:hover
+{
+	/*background-color: #fff;*/
+	background-image: linear-gradient(to right, #cccccc, #f2f2f2, #e5e5e5, #d9d9d9, #ffffff);
+	border-radius: 10px;
+	transition: all 0.2s;
+}
+.main .collapse .navbar-nav li i
+{
+	color: #fff;
+}
+.main .collapse .navbar-nav li i:hover
+{
+	color: dodgerBlue;
+	transition: all 0.5s;
+}
+.row .col-6
+{
+	height: auto;
+}
+.dashboard .card-container .col-sm-3:hover
+{
+	margin-top: -15px;
+	transition: all 0.6s;
+
+}
+
+.dashboard .card-container .col-sm-3 .card .card-body:hover .dashboard .card-container .col-sm-3 h5 .fa
+{
+	animation: animate7 2s linear;
+	transition: all 0.5s;
+
+}
+.card-in1
+{
+	border-left: 5px solid #F54459;
+}
+.card-in2
+{
+	border-left: 5px solid #8A48E3;
+}
+.card-in3
+{
+	border-left: 5px solid #4E93EC;
+}
+.card-in4
+{
+	border-left: 5px solid #ED8C40;
+}
+.card-in1:hover
+{
+	border-left: 5px solid green;
+	transition: all 0.5s;
+}
+.card-in2:hover
+{
+	border-left: 5px solid #f0ad4e;
+	transition: all 0.5s;
+}
+.card-in3:hover
+{
+	border-left: 5px solid #5bc0de;
+		transition: all 0.5s;
+
+}
+.card-in4:hover
+{
+	border-left: 5px solid #0275d8;
+	transition: all 0.5s;
+}
+@keyframes animate7
+{
+	0%
+	{
+		opacity: 0.1;
+	}
+	100%
+	{
+		opacity: 0.9;
+	}
+}
+
+h2
+{
+	animation: animate 2s steps(8);
+	overflow: hidden;
+	white-space: nowrap;
+
+	width: 8ch;
+}
+@keyframes animate
+{
+	0%
+	{
+		width: 0ch;
+			border-right: 2px solid black;
+	}
+	100%
+	{
+		width: 8ch;
+		border-right: none;
+	}
+}
+.bar1
+{
+	animation: animate2 2s linear;
+	width: 25%;
+}
+@keyframes animate2
+{
+	0%
+	{
+		width: 0%;
+	}
+	100%
+	{
+		width: 25%;
+	}
+}
+.bar2
+{
+	animation: animate3 2s linear;
+	width: 50%;
+}
+@keyframes animate3
+{
+	0%
+	{
+		width: 0%;
+	}
+	100%
+	{
+		width: 50%;
+	}
+}
+.bar3
+{
+	animation: animate4 2s linear;
+	width: 75%;
+}
+@keyframes animate4
+{
+	0%
+	{
+		width: 0%;
+	}
+	100%
+	{
+		width: 75%;
+	}
+}
+.bar4
+{
+	animation: animate5 2s linear;
+	width: 100%;
+}
+@keyframes animate5
+{
+	0%
+	{
+		width: 0%;
+	}
+	100%
+	{
+		width: 100%;
+	}
+}
